@@ -1,0 +1,891 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: montserrat;
+}
+nav{
+    background:blue;
+    height:80px;
+    width:100%;
+
+}
+label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight:bold;
+
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+nav ul li a{
+    color:white;
+    font-size:17px;
+    text-transform: uppercase;
+    padding:7px 13px;
+    border-radius:3px;
+}
+a.active,a:hover{
+    background:green;
+    transition: .5s;
+}
+.intro{
+    width:100%;
+    height:700px;
+    
+    position:relative;
+    overflow:hidden;
+    
+
+
+}
+.introcol1{
+    width:50%;
+    height:700px;
+    float:left;
+    background-color: rgb(200, 22, 22);
+    background:url('Indianarmy.jpg') no-repeat ;
+    background-size: cover;
+    
+
+    
+
+}
+.introcol2{
+    width:50%;
+    height:100%;
+    float:left;
+    text-align: center;
+    background-color: rgb(27, 219, 46);
+    font-size:100px;
+    color:white;
+    position:relative;
+    
+
+
+}
+.bestselling{
+    width:100%;
+    height:100px;
+    background-color: aquamarine;
+    text-align: center;
+    font-size:50px;
+}
+.subclass{
+    position:absolute;
+    margin-top: 150px;
+    
+}
+.honour{
+    color:black;
+    margin-top:400px;
+    text-transform: uppercase;
+}
+.best{
+    width:100%;
+    font-size: 40px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:white;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+}
+.introcol2:hover .best{
+    opacity:1;
+}
+.bestsellingbooks{
+    width:100%;
+    height:80px;
+    text-align: center;
+    font-size: 70px;;
+}
+.main{
+    width:100%;
+    height:700px;
+
+}
+.fmain{
+    width:100%;
+    height:1050px;
+    overflow: hidden;
+
+}
+.row1{
+    width:100%;
+    height:350px;
+   
+
+}
+.row2{
+    width:100%;
+    height:350px;
+   
+}
+.nextrow1{
+    width:100%;
+    height:350px;
+    
+}
+.nextrow2{
+    width:100%;
+    height:350px;
+  
+}
+.nextrow3{
+    width:100%;
+    height:350px;
+    
+}
+.nextrow1-c0l1{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army7.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.nextrow1-c0l2{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army8.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.nextrow1-c0l3{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army9.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.row1-c0l1{
+    width:33.33%;
+    height:350px;
+    float:left;
+   
+    background:url('war.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+
+}
+.row1-c0l2{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army2.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.row1-c0l3{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army3.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.nextrow2-c0l1{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army10.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.nextrow2-c0l2{
+    width:33.33%;
+    height:350px;
+    float:left;
+   
+    background:url('army11.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.nextrow2-c0l3{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army12.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.nextrow3-c0l1{
+    width:33.33%;
+    height:350px;
+    float:left;
+   
+    background:url('army13.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.nextrow3-c0l2{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army14.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.nextrow3-c0l3{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army15.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+
+
+
+.row2-c0l1{
+    width:33.33%;
+    height:350px;
+    float:left;
+   
+    background:url('army4.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.row2-c0l2{
+    width:33.33%;
+    height:350px;
+    float:left;
+   
+    background:url('army5.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+.row2-c0l3{
+    width:33.33%;
+    height:350px;
+    float:left;
+    
+    background:url('army6.jpg') no-repeat ;
+    background-size: cover;
+    POSITION:relative;
+}
+
+
+.TEXT1{
+    width:100%;
+    font-size: 40px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT1{
+    width:100%;
+    font-size: 40px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+
+.TEXT2{
+    width:100%;
+    font-size: 40px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT2{
+    width:100%;
+    font-size: 40px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.TEXT3{
+    width:100%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT3{
+    width:100%;
+    font-size: 40px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.TEXT4{
+    width:100%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT4{
+    width:100%;
+    font-size: 40px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.TEXT5{
+    width:100%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT5{
+    width:100%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+
+.TEXT6{
+    width:100%;
+    font-size: 40px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT6{
+    width:100%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT7{
+    width:100%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT8{
+    width:100%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.FTEXT9{
+    width:100%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.price1{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice1{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.price2{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice2{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.price3{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice3{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.price4{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice4{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.price5{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice5{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.price6{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice6{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice7{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice8{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+.fprice9{
+    width:20%;
+    font-size: 30px;
+    background-color:rgba(0,0,10,0.6) ;
+    color:YELLOW;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    opacity:0;
+    transition:2s;
+    text-align: center;
+}
+
+
+
+
+.row1-c0l1:hover .TEXT1 {
+    opacity:1;
+}
+.row1-c0l1:hover .price1 {
+    opacity:1;
+}
+.row1-c0l2:hover .TEXT2{
+    opacity:1;
+}
+.row1-c0l2:hover .price2 {
+    opacity:1;
+}
+.row1-c0l3:hover .TEXT3{
+    opacity:1;
+}
+.row1-c0l3:hover .price3 {
+    opacity:1;
+}
+.row2-c0l1:hover .TEXT4{
+    opacity:1;
+}
+.row2-c0l1:hover .price4 {
+    opacity:1;
+}
+.row2-c0l2:hover .TEXT5{
+    opacity:1;
+}
+.row2-c0l2:hover .price5 {
+    opacity:1;
+}
+.row2-c0l3:hover .TEXT6{
+    opacity:1;
+}
+.row2-c0l3:hover .price6 {
+    opacity:1;
+}
+
+
+.nextrow1-c0l1:hover .FTEXT1 {
+    opacity:1;
+}
+.nextrow1-c0l1:hover .fprice1 {
+    opacity:1;
+}
+.nextrow1-c0l2:hover .FTEXT2 {
+    opacity:1;
+}
+.nextrow1-c0l2:hover .fprice2 {
+    opacity:1;
+}
+.nextrow1-c0l3:hover .FTEXT3 {
+    opacity:1;
+}
+.nextrow1-c0l3:hover .fprice3 {
+    opacity:1;
+}
+.nextrow2-c0l1:hover .FTEXT4 {
+    opacity:1;
+}
+.nextrow2-c0l1:hover .fprice4 {
+    opacity:1;
+}
+.nextrow2-c0l2:hover .FTEXT5 {
+    opacity:1;
+}
+.nextrow2-c0l2:hover .fprice5 {
+    opacity:1;
+}
+.nextrow2-c0l3:hover .FTEXT6 {
+    opacity:1;
+}
+.nextrow2-c0l3:hover .fprice6 {
+    opacity:1;
+}
+.nextrow3-c0l1:hover .FTEXT7 {
+    opacity:1;
+}
+.nextrow3-c0l1:hover .fprice7 {
+    opacity:1;
+}
+.nextrow3-c0l2:hover .FTEXT8 {
+    opacity:1;
+}
+.nextrow3-c0l2:hover .fprice8 {
+    opacity:1;
+}
+.nextrow3-c0l3:hover .FTEXT9 {
+    opacity:1;
+}
+.nextrow3-c0l3:hover .fprice9 {
+    opacity:1;
+}
+
+
+
+
+.RECOMENDED{
+    width:100%;
+    height:50px;
+    background-color: aquamarine;
+    text-align: center;
+    font-size:30px;
+    position:relative;
+    
+}
+.search{
+    position:absolute;
+    width:500px;
+    height:30px;
+    top:10px;
+    right:0px;
+}
+
+.review-section{
+    width:100%;
+    height:100px;
+    font-size: 70px;
+    text-align: center;
+    
+}
+.review{
+    width:100%;
+    height:630px;
+    
+    
+    background-color: aquamarine;
+
+}
+.review1{
+    width:100%;
+    height:400px;
+    position:relative;
+    border:1px solid red;
+}
+.review2{
+    width:20%;
+    height:250px;
+    top:0px;
+    left:150px;
+    margin:0 auto;
+    
+    
+    
+    text-align:left;
+}
+.review1-col1{
+    width:50%;
+    height:400px;
+    position:relative;
+    float:left;
+    
+    background: url("demo.jpg") no-repeat;
+    background-position: 300px 70px;
+    background-color: aquamarine;
+    
+}
+.review1-col2{
+    width:50%;
+    height:400px;
+    position:relative;
+    float:left;
+    
+    background: url("demo2.jpg") no-repeat;
+    background-position: 260px 80px;
+    background-color: aquamarine;
+}
+.bulbul{
+  position:absolute;
+  top:190px;
+  left:270px;
+  text-align: center;
+  background-color: black;
+  color:yellow;
+}
+.bulbul1{
+    position:absolute;
+    width:100%;
+    height:150px;
+    left:0px;
+    bottom:40px;
+    text-transform: uppercase;
+    background-color: black;
+    color:yellow;
+
+}
+.krishna{
+    position:absolute;
+    top:260px;
+    left:280px;
+    text-align: center;
+    background-color: black;
+    color:yellow;
+}
+.krishna1{
+    position:absolute;
+    width:100%;
+    height:100px;
+    left:0px;
+    bottom:0px;
+    background-color: black;
+    color:yellow;
+    
+}
+.input{
+    position:relative;
+    width:100%;
+    height:65px;
+    
+}
+.copy{
+    width:100px;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+
+}
+.trade{
+    width:100px;
+    position:absolute;
+    left:550px;
+    bottom:0px;
+}
+.registered{
+    position:absolute;
+    left:1050px;
+    bottom:0px;
+}
+
+
+

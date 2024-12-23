@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation highlevel</title>
+    <style>
+        .main{
+            width:700px;
+            height:200px;
+            border:2px black solid;
+            margin:auto;
+            position:relative;
+
+        }
+        .box{
+            width:100px;
+            height:50px;
+            background-color: red;
+            position:absolute;
+            top:80px;
+            animation:box 4s 2;
+            /* animation-timing-function: linear; */
+            /* animation-timing-function: ease; */
+            animation-timing-function: ease-in-out;
+            
+        }
+        @keyframes box{
+            from{
+                left:0px;
+            }
+            to{
+                left:600px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
